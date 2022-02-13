@@ -1,0 +1,14 @@
+{
+    "name": "Chrome Tab Controller",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Support Moving Tabs",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {}
+}
