@@ -6,6 +6,12 @@
     "background": {
         "service_worker": "background.js"
     },
+    "commands": {
+        "move-to-first": {
+          "suggested_key": "Ctrl+Shift+1",
+          "description": "moves the tab to the left"
+        }
+    },
     "permissions": [
         "activeTab",
         "scripting"
